@@ -82,8 +82,8 @@ const Map: React.FC<MapProps> = ({
         center={mapCenter} 
         zoom={13} 
         style={{ height: "500px", width: "100%" }}
-        className="rounded-lg shadow-md"
-        whenCreated={(map) => { mapRef.current = map; }}
+        className="rounded-lg shadow-md z-0"
+        ref={mapRef}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

@@ -13,7 +13,7 @@ interface MapControlsProps {
 
 const MapControls: React.FC<MapControlsProps> = ({ userLocation, isAdmin, mapRef }) => {
   return (
-    <div className="absolute top-4 right-4 flex flex-col gap-2 z-[1000]">
+    <div className="absolute top-4 right-4 flex flex-col gap-2 z-10">
       <Button 
         variant="secondary" 
         size="icon"
