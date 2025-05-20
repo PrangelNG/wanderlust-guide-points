@@ -44,7 +44,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ open, onClose, onLogin }) => {
 
   return (
     <Dialog open={open} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-md">
+      <DialogContent className="sm:max-w-md z-[100]">
         <DialogHeader>
           <DialogTitle>Login</DialogTitle>
           <DialogDescription>
